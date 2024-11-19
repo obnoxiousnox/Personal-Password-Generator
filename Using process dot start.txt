@@ -1,0 +1,1 @@
+Sub OpenDiskManagement() Dim processStartInfo As New System.Diagnostics.ProcessStartInfo() processStartInfo.FileName = "diskmgmt.msc" ' The executable for Disk Management processStartInfo.Arguments = "" ' No additional arguments needed System.Diagnostics.Process.Start(processStartInfo) End Sub
